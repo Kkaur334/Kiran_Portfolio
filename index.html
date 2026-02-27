@@ -4,60 +4,122 @@
     <title>Kirandeep Kaur | Data Analyst Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 60px;
-            background-color: #f4f6f9;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f8f9fc;
             color: #333;
         }
-        h1 {
-            color: #2c3e50;
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
         }
-        .project {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
         }
-        a {
-            color: #0077cc;
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 15px 10px 0 10px;
+            padding: 10px 20px;
+            background-color: #2563eb;
+            color: white;
+            border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .buttons a:hover {
+            background-color: #1e40af;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer a {
+            color: #60a5fa;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Kirandeep Kaur</h1>
-<p><strong>Business Insights & Analytics | Data Analyst</strong></p>
-<p>Passionate about transforming raw data into actionable business insights using SQL, Python, and Power BI.</p>
+<header>
+    <h1>Kirandeep Kaur</h1>
+    <p>Business Insights & Analytics | Data Analyst</p>
+    <p>Transforming data into actionable business insights using SQL, Python & Power BI.</p>
 
-<h2>Projects</h2>
+    <div class="buttons">
+        <a href="https://github.com/Kkaur334" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kirandeepkauranalyst/" target="_blank">LinkedIn</a>
+    </div>
+</header>
 
-<div class="project">
-    <h3>Retail Sales & Inventory Performance Analytics</h3>
-    <p><strong>Tools:</strong> Power BI, DAX, Data Modeling</p>
-    <p>Built an interactive dashboard analyzing sales trends, inventory performance, and business KPIs to support decision-making.</p>
-    <a href="https://github.com/Kkaur334/Retail-Sales-Inventory-Performance-Analytics" target="_blank">View on GitHub →</a>
-</div>
+<section>
+    <h2>Projects</h2>
 
-<div class="project">
-    <h3>Airbnb Paris Regulation Analysis</h3>
-    <p><strong>Tools:</strong> Python, Pandas, Data Visualization</p>
-    <p>Analyzed Airbnb listings to evaluate regulatory impact on pricing, host distribution, and market trends.</p>
-    <a href="https://github.com/Kkaur334/airbnb-paris-regulation-analysis" target="_blank">View on GitHub →</a>
-</div>
+    <div class="project">
+        <h3>Retail Sales & Inventory Performance Analytics</h3>
+        <p><strong>Tools:</strong> Power BI, DAX, Data Modeling</p>
+        <p>Interactive dashboard analyzing sales trends, inventory turnover, and KPIs to improve decision-making.</p>
+        <a href="https://github.com/Kkaur334/Retail-Sales-Inventory-Performance-Analytics" target="_blank">View on GitHub →</a>
+        <img src="retail-dashboard.png" alt="Retail Dashboard Screenshot">
+    </div>
 
-<div class="project">
-    <h3>Restaurant Sales Analysis</h3>
-    <p><strong>Tools:</strong> SQL, MySQL</p>
-    <p>Performed SQL-based sales analysis to identify revenue trends, top-selling items, and business insights.</p>
-    <a href="https://github.com/Kkaur334/Restaurant-Sales-Analysis" target="_blank">View on GitHub →</a>
-</div>
+    <div class="project">
+        <h3>Airbnb Paris Regulation Analysis</h3>
+        <p><strong>Tools:</strong> Python, Pandas, Visualization</p>
+        <p>Explored regulatory impact on Airbnb listings, pricing, and host distribution using data analysis techniques.</p>
+        <a href="https://github.com/Kkaur334/airbnb-paris-regulation-analysis" target="_blank">View on GitHub →</a>
+        <img src="airbnb-analysis.png" alt="Airbnb Project Screenshot">
+    </div>
+
+    <div class="project">
+        <h3>Restaurant Sales Analysis</h3>
+        <p><strong>Tools:</strong> SQL, MySQL</p>
+        <p>Performed SQL queries to analyze revenue trends, customer patterns, and product performance.</p>
+        <a href="https://github.com/Kkaur334/Restaurant-Sales-Analysis" target="_blank">View on GitHub →</a>
+        <img src="restaurant-analysis.png" alt="Restaurant Project Screenshot">
+    </div>
+</section>
+
+<footer>
+    <h3>Contact</h3>
+    <p>Email: kiranarora1024@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/Kkaur334">github.com/Kkaur334</a></p>
+</footer>
 
 </body>
 </html>
